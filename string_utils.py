@@ -1,4 +1,5 @@
 def split_before_each_uppercases(formula):
+    pass # Replace the `pass` with your code
     split_formula = []
     if len(formula) == 0:
         return []
@@ -12,6 +13,7 @@ def split_before_each_uppercases(formula):
 
 
 def split_at_first_digit(formula):
+    pass # Replace the `pass` with your code
     digit_location=1
     for digit in (formula[1:]):
         if digit.isdigit():
