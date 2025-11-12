@@ -14,11 +14,11 @@ def split_before_each_uppercases(formula):
 
 def split_at_first_digit(formula):
     pass # Replace the `pass` with your code
-    digit_location=1
-    for digit in (formula[1:]):
+    digit_location= 1
+    for digit in formula[1:]:
         if digit.isdigit():
-          break
-      digit_location+=1
+            break
+    digit_location+=1
     
     if digit_location==len(formula):
         return formula,1
